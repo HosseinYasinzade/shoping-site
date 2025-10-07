@@ -1,3 +1,5 @@
+import TopHeader from "@/components/molecules/TopHeader";
+
 export default function Home() {
-  return <h1>Home Page</h1>;
+  return <TopHeader />;
 }
