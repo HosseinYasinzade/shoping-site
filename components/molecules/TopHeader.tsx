@@ -5,11 +5,12 @@ function TopHeader() {
   return (
     <header className="bg-black py-3">
       <div className="flex justify-center gap-5">
-        <Text
-          text="Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!"
-          variant="white-text"
-        />
-        <Links text="ShopNow" variant={"white-text"} href="#" />
+        <Text variant="white-text">
+          Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+        </Text>
+        <Links variant="white-text" href="/about">
+          ShopNow
+        </Links>
       </div>
     </header>
   );

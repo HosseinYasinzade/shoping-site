@@ -1,14 +1,15 @@
 type Props = {
-  text: string;
+  children: React.ReactNode;
   variant: string;
   className?: string;
 };
 
-function Text({ text, variant, className }: Props) {
+function Text({ children, variant, className }: Props) {
   const variantStyles: Record<string, string> = {
     "white-text": "text-white",
   };
-  return <p className={`${variantStyles[variant]} ${className}`}>{text}</p>;
+
+  return <p className={`${variantStyles[variant]} ${className}`}>{children}</p>;
 }
 
 export default Text;
