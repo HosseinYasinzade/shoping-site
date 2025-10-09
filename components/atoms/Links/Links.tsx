@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const variantStyles = {
   "white-text": "text-white",
-} as const;
+};
 
 type Variant = keyof typeof variantStyles;
 
