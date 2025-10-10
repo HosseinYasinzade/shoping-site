@@ -1,5 +1,5 @@
-import Text from "../atoms/Text/text";
-import Links from "../atoms/Links/Links";
+import Text from "@/components/atoms/Text/text";
+import Links from "@/components/atoms/Links/Links";
 
 function TopHeader() {
   return (

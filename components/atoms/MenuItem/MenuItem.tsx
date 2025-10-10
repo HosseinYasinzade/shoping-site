@@ -8,8 +8,8 @@ type Props = {
 
 function MenuItem({ children, className = "", href = "#" }: Props) {
   return (
-    <li>
-      <Link href={href} className={`${className} font-bold underline`}>
+    <li className="list-none">
+      <Link href={href} className={`${className} text-2xl`}>
         {children}
       </Link>
     </li>

@@ -1,5 +1,11 @@
-import TopHeader from "@/components/molecules/TopHeader";
+import TopHeader from "@/components/molecules/TopHeader/TopHeader";
+import Menu from "@/components/molecules/Menu/Menu";
 
 export default function Home() {
-  return <TopHeader />;
+  return (
+    <>
+      <TopHeader />
+      <Menu />
+    </>
+  );
 }
